@@ -33,28 +33,26 @@
 
 								<!-- Sidebar -->
 									<section class="box">
+										<a href="https://janitorai.com/" class="image featured"><img src="images/janitorai-logo.webp" alt="JanitorAI logo" /></a>
 										<header>
 											<h3>JanitorAI</h3>
 										</header>
-										<p>Production feature for a high-traffic AI character platform, focused on making profile CSS customization accessible without taking control away from power users.</p>
+										<p>JanitorAI is an AI character platform where users create, chat with, and customize character/profile experiences.</p>
 										<ul class="divided">
-											<li>React / TypeScript product surface</li>
-											<li>CSS editing and live preview workflow</li>
-											<li>AI-assisted style generation and revision</li>
-											<li>Statsig experiment rollout</li>
+											<li><a href="https://janitorai.com/">Visit JanitorAI</a></li>
 										</ul>
 									</section>
 									<section class="box">
 										<header>
-											<h3>Scale</h3>
+											<h3>Tech Stack</h3>
 										</header>
-										<p>The feature supported roughly 95K daily profile edits on a platform serving about 2.5M DAU.</p>
+										<p>React, TypeScript, CSS editing, live preview, edit history, AI-assisted editing, CI/CD, and Statsig experiments.</p>
 									</section>
 									<section class="box">
 										<header>
-											<h3>Why It Mattered</h3>
+											<h3>My Ownership</h3>
 										</header>
-										<p>The work turned a manual power-user feature into an assisted workflow that was safer to try, easier to roll back, and practical enough to become part of a subscription experience.</p>
+										<p>Owned the frontend product surface for profile customization, including the editor experience, preview flow, edit history interactions, and AI-assisted editing UX.</p>
 									</section>
 
 							</div>
@@ -64,45 +62,29 @@
 									<article class="box post">
 										<iframe width="560" height="315" src="https://www.youtube.com/embed/51Zik4bQrJc" title="AI profile customization demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 										<header>
-											<h2>AI-Assisted CSS Customization at Real Scale</h2>
+											<h2>AI-Assisted Profile Customization</h2>
 										</header>
 										<p>
-											JanitorAI users were already customizing their profiles with CSS, but the workflow was mostly manual and easiest for power users. I helped turn that into a product experience: a React and TypeScript customization surface with a Monaco-style CSS editor, live preview sandbox, edit history, and an AI editing flow that could generate or revise profile styles from natural-language requests.
+											JanitorAI users were already customizing their profiles with CSS, but the workflow was mostly manual and easiest for power users. I helped turn that into an assisted product experience with an editor, live preview, edit history, and AI editing flow that could help users generate or revise profile styles from natural-language requests.
 										</p>
 										<p>
-											The hard part was not just generating CSS. Users needed room to experiment creatively without breaking their profile, losing previous work, or publishing unsafe output. I worked on the surrounding product and operational pieces that made the feature reliable: preview before publish, rollback through edit history, guardrails around AI-generated CSS, and controlled rollout through CI/CD and Statsig experiments.
+											The important product constraint was safety: users needed room to experiment creatively without breaking their profile or losing previous work. The final workflow emphasized preview before publish, rollback through edit history, guardrails around AI-assisted output, and controlled rollout through experiments.
 										</p>
 									
 										<section>
 											<header>
-												<h3>Product Surface</h3>
+												<h3>What I Built</h3>
 											</header>
 											<p>
-												The editor flow gave users a place to write CSS directly, preview changes in a sandboxed profile environment, save versions, and publish only after checking the result. That kept the power-user workflow intact while making customization less intimidating for everyone else.
+												I built the React and TypeScript product surface around the profile editor workflow: CSS editing, previewing changes, browsing prior edits, and using AI assistance without taking control away from users who wanted to write CSS directly.
 											</p>
 										</section>
 										<section>
 											<header>
-												<h3>AI Editing Flow</h3>
+												<h3>Company-Safe Summary</h3>
 											</header>
 											<p>
-												The AI workflow helped users describe what they wanted in plain language, then generated or modified CSS against their existing profile style. The goal was to make the assistant feel like a styling collaborator, not a black box that overwrote the user's work.
-											</p>
-										</section>
-										<section>
-											<header>
-												<h3>Reliability and Rollout</h3>
-											</header>
-											<p>
-												Because this ran on a large consumer product, reliability mattered as much as creativity. The system needed to be cheap enough to operate, safe enough to expose to real users, and measurable enough to ship through experiments instead of a one-shot launch.
-											</p>
-										</section>
-										<section>
-											<header>
-												<h3>What I Took Away</h3>
-											</header>
-											<p>
-												This is my strongest example of building full-stack operational tooling around a messy real user workflow: take something flexible but fragile, wrap it in useful product controls, and make it dependable enough for daily use at scale.
+												Because this was company work, I am keeping implementation details high-level. The core takeaway is the product engineering shape: take a flexible but fragile user workflow, wrap it in clear controls, and make it reliable enough for daily use on a large consumer platform.
 											</p>
 										</section>
 									</article>
