@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>AI Profile Customization</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="left-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+
+					<!-- Logo -->
+						<h1><a href="index.html">AI Profile Customization</a></h1>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li class="current"><a href="ai_profile_customization.html">About this project</a></li>
+							</ul>
+						</nav>
+
+				</section>
+
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+						<div class="row">
+							<div class="col-4 col-12-medium">
+
+								<!-- Sidebar -->
+									<section class="box">
+										<header>
+											<h3>JanitorAI</h3>
+										</header>
+										<p>Production feature for a high-traffic AI character platform, focused on making profile CSS customization accessible without taking control away from power users.</p>
+										<ul class="divided">
+											<li>React / TypeScript product surface</li>
+											<li>CSS editing and live preview workflow</li>
+											<li>AI-assisted style generation and revision</li>
+											<li>Statsig experiment rollout</li>
+										</ul>
+									</section>
+									<section class="box">
+										<header>
+											<h3>Scale</h3>
+										</header>
+										<p>The feature supported roughly 95K daily profile edits on a platform serving about 2.5M DAU.</p>
+									</section>
+									<section class="box">
+										<header>
+											<h3>Why It Mattered</h3>
+										</header>
+										<p>The work turned a manual power-user feature into an assisted workflow that was safer to try, easier to roll back, and practical enough to become part of a subscription experience.</p>
+									</section>
+
+							</div>
+							<div class="col-8 col-12-medium imp-medium">
+
+								<!-- Content -->
+									<article class="box post">
+										<iframe width="560" height="315" src="https://www.youtube.com/embed/51Zik4bQrJc" title="AI profile customization demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+										<header>
+											<h2>AI-Assisted CSS Customization at Real Scale</h2>
+										</header>
+										<p>
+											JanitorAI users were already customizing their profiles with CSS, but the workflow was mostly manual and easiest for power users. I helped turn that into a product experience: a React and TypeScript customization surface with a Monaco-style CSS editor, live preview sandbox, edit history, and an AI editing flow that could generate or revise profile styles from natural-language requests.
+										</p>
+										<p>
+											The hard part was not just generating CSS. Users needed room to experiment creatively without breaking their profile, losing previous work, or publishing unsafe output. I worked on the surrounding product and operational pieces that made the feature reliable: preview before publish, rollback through edit history, guardrails around AI-generated CSS, and controlled rollout through CI/CD and Statsig experiments.
+										</p>
+									
+										<section>
+											<header>
+												<h3>Product Surface</h3>
+											</header>
+											<p>
+												The editor flow gave users a place to write CSS directly, preview changes in a sandboxed profile environment, save versions, and publish only after checking the result. That kept the power-user workflow intact while making customization less intimidating for everyone else.
+											</p>
+										</section>
+										<section>
+											<header>
+												<h3>AI Editing Flow</h3>
+											</header>
+											<p>
+												The AI workflow helped users describe what they wanted in plain language, then generated or modified CSS against their existing profile style. The goal was to make the assistant feel like a styling collaborator, not a black box that overwrote the user's work.
+											</p>
+										</section>
+										<section>
+											<header>
+												<h3>Reliability and Rollout</h3>
+											</header>
+											<p>
+												Because this ran on a large consumer product, reliability mattered as much as creativity. The system needed to be cheap enough to operate, safe enough to expose to real users, and measurable enough to ship through experiments instead of a one-shot launch.
+											</p>
+										</section>
+										<section>
+											<header>
+												<h3>What I Took Away</h3>
+											</header>
+											<p>
+												This is my strongest example of building full-stack operational tooling around a messy real user workflow: take something flexible but fragile, wrap it in useful product controls, and make it dependable enough for daily use at scale.
+											</p>
+										</section>
+									</article>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+			<section id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-12-medium">
+							<section>
+								<header>
+									<h2>Contact me</h2>
+								</header>
+								<ul class="social">
+									<li><a class="icon brands fa-instagram" href="https://www.instagram.com/awinfredwa/"><span class="label">Instagram</span></a></li>
+									<li><a class="icon brands fa-linkedin-in" href="https://www.linkedin.com/in/awinfredwa-4b927723b/"><span class="label">LinkedIn</span></a></li>
+									<li><a class="icon brands fa-discord" href="https://discordapp.com/users/awinfredwa"><span class="label">Discord</span></a></li>
+									<li><a class="icon brands fa-github" href="https://github.com/Awinfredwa"><span class="label">GitHub</span></a></li>
+								</ul>
+								<ul class="contact">
+									<li>
+										<h3>Address</h3>
+										<p>
+											Los Angeles, CA 90018
+										</p>
+									</li>
+									<li>
+										<h3>Mail</h3>
+										<p><a>wzwang@usc.edu</a></p>
+									</li>
+									<li>
+										<h3>Phone</h3>
+										<p>(929) 313 1002</p>
+									</li>
+								</ul>
+							</section>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
